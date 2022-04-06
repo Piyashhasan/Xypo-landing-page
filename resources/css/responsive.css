@@ -1,0 +1,195 @@
+@media only screen and (max-width: 770px) {
+  header {
+    background-image: none;
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  h4 {
+    font-weight: 400;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  /* ---------------------- */
+  /**** header area ****/
+  /* ---------------------- */
+  .container > .logo img {
+    width: 70px;
+  }
+  .container > .text-area {
+    margin-top: 32px;
+  }
+  .container > .text-area .little-paragraph {
+    font-size: 12px;
+  }
+  .style-line {
+    margin-top: 50px;
+    line-height: 8px;
+  }
+  .social_icon {
+    width: 15px;
+    transform: translateY(-100%);
+    z-index: 1;
+  }
+  .social_icon > img {
+    width: 15px;
+  }
+  .social_icon > img:hover {
+    width: 20px;
+  }
+  .button {
+    padding: 8px 15px;
+    border: 1px solid #f67c92;
+  }
+
+  #sideNavBar {
+    width: 200px;
+  }
+
+  /* ---------------------- */
+  /**** about area****/
+  /* ---------------------- */
+  #about,
+  #offer {
+    padding-top: 60px;
+  }
+  #about > .about_left_site,
+  #offer > .offer_left_site {
+    flex-basis: 100%;
+  }
+  #about > .about_right_site,
+  #offer > .offer_right_site {
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+  #about > .about_right_site,
+  #offer > .offer_right_site {
+    flex-basis: 100%;
+  }
+  #about > .about_right_site > .about_text,
+  #offer > .offer_right_site > .offer_text {
+    max-width: 500px;
+    margin-right: 25px;
+  }
+  #about > .about_right_site > .about_text > .style-line,
+  #offer > .offer_right_site > .offer_text > .style-line {
+    margin: 25px 0;
+  }
+  #about > .about_right_site > .about_text h2 {
+    font-size: 16px;
+    margin: 30px 0;
+  }
+  #about > .about_right_site > .about_text h3 {
+    font-size: 14px;
+  }
+
+  /* ---------------------- */
+  /**** feature area ****/
+  /* ---------------------- */
+  #feature {
+    margin-top: -110px;
+  }
+  #feature > .feautre_items > .feature_col {
+    flex-basis: 100%;
+  }
+  #feature > .feature_bottom > .style-line {
+    margin-right: 15px;
+  }
+
+  /* ---------------------- */
+  /**** Course area ****/
+  /* ---------------------- */
+  #courses {
+    margin-top: -170px;
+  }
+  #courses > .container > .courses_left_site {
+    flex-basis: 100%;
+  }
+  #courses > .container > .courses_right_site {
+    flex-basis: 100%;
+  }
+  #courses > .container > .courses_right_site img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #courses
+    > .container
+    > .courses_left_site
+    > .courses_text
+    > .courses_paragraph {
+    margin-bottom: none;
+  }
+
+  /* ---------------------- */
+  /**** contact area ****/
+  /* ---------------------- */
+  #contact {
+    margin-top: -50px;
+  }
+  #contact > .container > .contact_left_site,
+  #contact > .container > .contact_right_site {
+    flex-basis: 100%;
+  }
+  #contact > .container > .contact_right_site img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #contact > .container > .contact_left_site > .contact_text form {
+    max-width: 350px;
+    margin: 20px 0;
+  }
+  #contact
+    > .container
+    > .contact_left_site
+    > .contact_text
+    form
+    > .btn_group
+    > .button {
+    flex-basis: 48%;
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+  
+  /* ---------------------- */
+  /**** footer area ****/
+  /* ---------------------- */
+  #footer {
+    margin-top: -50px;
+  }
+  #footer > .container > .footer_text > .footer_left_site {
+    flex-basis: 100%;
+  }
+  #footer > .container > .footer_text > .footer_right_site {
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+  #footer > .container > .footer_text > .footer_left_site h4 {
+    color: #f67c92;
+    margin: 10px 0;
+  }
+  #footer > .container > .footer_text > .footer_right_site {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  #footer > .container > .footer_text > .footer_right_site > .footer_logo {
+    margin-left: 10px;
+  }
+  #footer > .container > .footer_text > .footer_right_site > .footer_logo img {
+    width: 70px;
+    height: auto;
+  }
+}
