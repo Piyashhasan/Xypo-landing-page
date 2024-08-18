@@ -1,4 +1,10 @@
-@media only screen and (max-width: 770px) {
+@media only screen and (min-width: 1090px) {
+  #footer > .container > .footer_text {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 767px) {
   header {
     background-image: none;
     width: 100%;
@@ -163,7 +169,7 @@
     font-size: 11px;
     padding: 5px 10px;
   }
-  
+
   /* ---------------------- */
   /**** footer area ****/
   /* ---------------------- */
@@ -183,7 +189,6 @@
   }
   #footer > .container > .footer_text > .footer_right_site {
     flex-wrap: nowrap;
-    align-items: center;
   }
   #footer > .container > .footer_text > .footer_right_site > .footer_logo {
     margin-left: 10px;
